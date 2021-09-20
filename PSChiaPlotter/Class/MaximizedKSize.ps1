@@ -23,7 +23,7 @@ class MaximizedKSize {
     ){
         $this.KSize = $Ksize
         $this.TotalBytes = $TotalBytes
-
+//s
         $this.KSizeBytes = switch ($this.KSize){
             "K35" {[MaximizedKSize]::K35}
             "K34" {[MaximizedKSize]::K34}
